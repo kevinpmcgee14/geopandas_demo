@@ -1,6 +1,8 @@
 # GeoJson Analyzer
 
 ## Intro
+This demo looks at a set of building footprints, and generates a list of what buildings are within 5 meters of each other.
+
 This script takes a geojson as input and for each polygon:
 
 * calculates the polygon centroid (the "point_average")
